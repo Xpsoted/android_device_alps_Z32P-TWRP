@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from LD_C17_TFT_LFLT_D4 device
-$(call inherit-product, device/alps/LD_C17_TFT_LFLT_D4/device.mk)
+$(call inherit-product, device/alps/Z32P/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
