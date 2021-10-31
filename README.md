@@ -1,0 +1,1 @@
+# android_device_alps_Z32P-TWRP
