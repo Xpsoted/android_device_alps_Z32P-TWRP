@@ -17,4 +17,4 @@
 #
 
 add_lunch_combo omni_Z32P-userdebug
-add_lunch_combo omni_Z32P_D4-eng
+add_lunch_combo omni_Z32P-eng
