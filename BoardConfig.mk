@@ -83,8 +83,10 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
-# TWRP stuff
+# Watch stuff
 TW_THEME := watch_mdpi
+TW_ROUND_SCREEN := true
+
 
 # Dynamic Partition
 BOARD_SUPER_PARTITION_SIZE := 4292870144
