@@ -18,6 +18,6 @@
 
 LOCAL_PATH := device/alps/Z32P
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
+PRODUCT_PACKAGES += fastbootd
 
 
