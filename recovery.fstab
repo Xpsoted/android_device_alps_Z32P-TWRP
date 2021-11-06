@@ -1,10 +1,7 @@
 # mount point       fstype    device                                                                flags
-/system             ext4      system                                                                flags=display="System";backup=1;logical;
-/system_image       emmc      system                                                                flags=display="System image";backup=1;flashimg=1;logical;
-/vendor             ext4      vendor                                                                flags=display="Vendor";backup=1;logical;
-/vendor_image       emmc      vendor                                                                flags=display="Vendor image";backup=1;flashimg=1;logical;
-/product            ext4      product                                                               flags=display="Product";backup=1;logical;
-/product_image      emmc      product                                                               flags=display="Product image";backup=1;flashimg=1;logical;
+system /system ext4 ro wait,,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
+vendor /vendor ext4 ro wait,,avb,logical,first_stage_mount
+product /product ext4 ro wait,,avb,logical,first_stage_mount
 /metadata           ext4      /dev/block/platform/bootdevice/by-name/md_udc                         flags=display="Metadata";
 /data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";
 /cache              ext4      /dev/block/platform/bootdevice/by-name/cache                          flags=display="Cache";
