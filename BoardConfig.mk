@@ -86,7 +86,7 @@ TW_USE_TOOLBOX := true
 # Watch stuff
 TW_THEME := watch_mdpi
 TW_ROUND_SCREEN := true
-
+BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Dynamic Partition
 BOARD_SUPER_PARTITION_SIZE := 4292870144
